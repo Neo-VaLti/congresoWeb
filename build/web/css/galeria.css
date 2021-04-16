@@ -1,0 +1,26 @@
+#fotos img{
+position:relative;
+top:200px;
+left:360px;
+}
+#Contenido{
+	width:900px;
+}
+#fotos img{
+	width:750px;
+	height:300px;
+}
+
+.boto1 {
+position:relative;
+bottom:70px;
+left:300px;
+padding:120px 25px;
+}
+
+.boto2 {
+position:relative;
+bottom:70px;
+left:1020px;
+padding:120px 25px;
+}

@@ -1,0 +1,19 @@
+<%--
+    menuCanciones.jspf
+
+    Este fragmento de página JSP contiene el menú ponencias de la aplicación Web
+    congresoWeb versión JSP.
+--%>
+<%@ page pageEncoding="UTF-8" %>
+<nav>
+    <ul>
+        <li><a href="Control?tarea=AgregarPonencia">Agregar ponencia</a></li>
+        <li><a href="Control?tarea=ActualizarPonencia">Actualizar ponencia</a></li>
+        <li><a href="Control?tarea=EliminarPonencias">Eliminar ponencias</a></li>
+        <li><a href="Control?tarea=listaPonencias">Consultar ponencias</a></li>
+        <li><a href="Control?tarea=listarPonenciasAlumno">Consultar ponencias por ponente</a></li>
+        <li><a href="Control?tarea=listarPonenciasEstado">Consultar ponencias por estado</a></li>
+        <li><a href="Control?tarea=listarPonenciasPeriodo">Consultar ponencias por periodo</a></li>
+        <li><a href="index.jsp">Página principal</a></li>
+    </ul>
+</nav>

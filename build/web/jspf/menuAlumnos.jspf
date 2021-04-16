@@ -1,0 +1,16 @@
+<%--
+
+    menuAlumnos.jspf
+    
+    *** Este fragmento de pagina JSP contiene el menu alumnos de la aplicacion congresoWeb ***
+
+--%>
+
+<%@ page pageEncoding="UTF-8" %>
+<nav>
+    <ul>
+        <li><a href="Control?tarea=AgregarAlumno">Agregar alumno</a></li>
+        <li><a href="Control?tarea=consultarAlumnos">Consultar alumno</a></li>
+        <li><a href="index.jsp">Pagina principal</a></li>
+    </ul>
+</nav>

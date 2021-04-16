@@ -1,0 +1,11 @@
+<%--
+    encabezado.jspf
+
+    Este fragmento de página JSP contiene el encabezado de la aplicación Web
+    congresoWeb versión JSP.
+--%>
+
+<%@ page pageEncoding="UTF-8" %>
+<header>
+  <a href="index.jsp"><img alt="titulo" src="IMG/titulo.PNG" width="800" height="150"></a>
+</header>
